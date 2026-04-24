@@ -17,7 +17,8 @@ I set up a home lab to run Active Directory using Oracle VirtualBox. First, I cr
 ### Stage 1: Virtualization & VM Creation
 I wanted a reliable sandbox to run my Windows Server, so I went with Oracle VirtualBox. It’s a great, flexible way to run a lab right on my MacBook Air (M3).
 
-* **Installation:** I grabbed the ARM64 version of VirtualBox directly from the official site. It’s built to run natively on the Apple Silicon architecture, so it feels smooth and responsive.
+* **Installation:** I grabbed the ARM64 version of VirtualBox directly from the official site. It’s built to run natively on the Apple Silicon architecture, so it feels smooth and responsive. I also downloaded the VirtualBox 7.2.8 Extension Pack for additional functionality. 
+
 
 ![My Lab Setup](VirtualDownload.png)
 
