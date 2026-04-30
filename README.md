@@ -63,12 +63,14 @@ Instead of manual account creation, automation was used to simulate a large-scal
   <img src="assets/PowerShell.png" width="700" alt="PowerShell Automation" />
 </p>
 
+---
+
 ### Project Outcome 
-The Results
+**The Results**
 
 The project successfully established a functional office network within a virtual environment. The client computer integrated with the server, received an automatic IP address, and maintained stable internet connectivity. Automation was used to instantly provision over 100 user accounts, ensuring the system was organized and ready for a corporate environment.
 
-Key skills
+**Key skills**
 * System Administration: Hands-on experience managing a central server and user database.
 * Networking: Configuring device connectivity and internal communication protocols.
 * Automation: Using scripts to complete high-volume, repetitive tasks with precision.
