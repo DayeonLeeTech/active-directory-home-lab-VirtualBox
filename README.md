@@ -37,4 +37,27 @@ This stage focused on transforming the standalone server into the central manage
 <p align="center">
   <img src="assets/ActiveDirectory.png" width="700" alt="Active Directory Setup" />
 </p>
+
+### Stage 3: Routing & Internet Connectivity
+To ensure the isolated client machine could reach the web safely, the server was configured as a functional router.
+* NAT Configuration: Enabled Routing and Remote Access (RAS) on the server.
+* Internet Gateway: Configured Network Address Translation (NAT) so the Windows 10 client could access the internet through the Domain Controller’s external adapter.
+* Connectivity Verification: Confirmed the client workstation could reach external sites while remaining on the internal subnet.
+
+<p align="center">
+  <img src="assets/InstallRAS/NAT.png" width="700" alt="NAT Configuration" />
+</p>
+<p align="center">
+  <img src="assets/NetworkConnectivityTest.png" width="700" alt="Connectivity Test" />
+</p>
+
+### Stage 4: PowerShell Automation
+Instead of manual account creation, automation was used to simulate a large-scale employee onboarding process.
+* Scripting: Developed a PowerShell script to read from a list of names and automatically generate unique user accounts.
+* Efficiency: This process demonstrated how to provision hundreds of users instantly, ensuring consistent account settings and saving hours of manual entry.
+  
+<p align="center">
+  <img src="assets/PowerShell.png" width="700" alt="PowerShell Automation" />
+</p>
+
 ---
