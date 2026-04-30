@@ -58,6 +58,10 @@ To ensure the isolated client machine could reach the web safely, the server was
 Instead of manual account creation, automation was used to simulate a large-scale employee onboarding process.
 * Scripting: Developed a PowerShell script to read from a list of names and automatically generate unique user accounts.
 * Efficiency: This process demonstrated how to provision hundreds of users instantly, ensuring consistent account settings and saving hours of manual entry.
+
+Automation Scripts:
+* [📂 Create Users Script](scripts/1_CREATE_USERS.ps1) – The primary logic for provisioning accounts in AD.
+* [📂 Name Generation Script](scripts/GENERATE-NAMES-CREATE-USERS.ps1) – Used to generate mock user data for the simulation.
   
 <p align="center">
   <img src="assets/PowerShell.png" width="700" alt="PowerShell Automation" />
