@@ -25,12 +25,16 @@ The foundation of the lab is a virtualized corporate network designed to be comp
 * Dual-NIC Configuration: The Domain Controller was configured with two network adapters—one for internet access and one for the internal private network—allowing it to act as a gateway.
 * Internal Subnet: Established a private virtual network to ensure secure communication between the server and client.
 
-![My Lab Setup](assets/VMConfig.png)
+<p align="center">
+  <img src="assets/VMConfig.png" width="700" alt="My Lab Setup" />
+</p>
 
 ### Stage 2: Active Directory & Network Services
 This stage focused on transforming the standalone server into the central management hub for the network.
 * Active Directory (AD DS): Installed and configured the Active Directory role, promoting the server to a Domain Controller for the internal domain.
 * Network Infrastructure: Configured Static IP addressing and DNS for proper name resolution across the private subnet.
 * DHCP Management: Established a DHCP scope ($172.16.0.100 - 200$) to automate IP assignment for any client workstations joining the domain.
-![My Lab Setup](assets/ActiveDirectory.png)
+<p align="center">
+  <img src="assets/ActiveDirectory.png" width="700" alt="Active Directory Setup" />
+</p>
 ---
