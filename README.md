@@ -1,6 +1,6 @@
 ![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D4?style=for-the-badge&logo=windows-server&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-214294?style=for-the-badge&logo=virtualbox&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-214294?style=for-the-badge&logo=oracle&logoColor=white)
 
 # Active Directory Home Lab (Oracle VirtualBox)
 <p align="center">
