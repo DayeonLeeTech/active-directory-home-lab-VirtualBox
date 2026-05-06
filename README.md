@@ -4,8 +4,10 @@
   <img src="assets/HomeLab.png" width="100%" alt="My Lab Setup" />
 </p>
 
-### TL;DR
-Technologies Used
+## Introduction
+This Home Lab was built using Oracle VirtualBox to simulate a functional corporate network on Windows Server 2019. The project provided hands-on experience with Active Directory, DNS, and DHCP configuration for a Windows 10 client. A PowerShell script was also implemented to automate bulk user creation, demonstrating how automation simplifies everyday management tasks. This setup served as a practical way to gain direct experience with Windows networking and the core system administration tools used in IT support.
+
+## Technical Skills & Tools
 * Virtualization: Oracle VirutalBox
 * Operating Systems: Windows Server 2019, Windows 10 Pro
 * Networking: DHCP, DNS, NAT, Private Virtual Networks
@@ -17,12 +19,9 @@ Download Links
 * [Windows 10 ISO](https://www.microsoft.com/en-us/software-download/windows10)
 
 ---
-## Overview
-This Home Lab was built using Oracle VirtualBox to simulate a functional corporate network on Windows Server 2019. The project provided hands-on experience with Active Directory, DNS, and DHCP configuration for a Windows 10 client. A PowerShell script was also implemented to automate bulk user creation, demonstrating how automation simplifies everyday management tasks. This setup served as a practical way to gain direct experience with Windows networking and the core system administration tools used in IT support.
-
 ## Project Setup
 
-### Stage 1: Virtualization & Network Setup 
+### Part 1: Virtualization & Network Setup 
 The foundation of the lab is a virtualized corporate network designed to be completely isolated from the host machine.
 * Environment Deployment: Used Oracle VirtualBox to host two virtual machines: a Windows Server 2019 Domain Controller and a Windows 10 client.
 * Dual-NIC Configuration: The Domain Controller was configured with two network adapters—one for internet access and one for the internal private network—allowing it to act as a gateway.
@@ -32,7 +31,7 @@ The foundation of the lab is a virtualized corporate network designed to be comp
   <img src="assets/VMConfig.png" width="700" alt="My Lab Setup" />
 </p>
 
-### Stage 2: Active Directory & Network Services
+### Part 2: Active Directory & Network Services
 This stage focused on transforming the standalone server into the central management hub for the network.
 * Active Directory (AD DS): Installed and configured the Active Directory role, promoting the server to a Domain Controller for the internal domain.
 * Network Infrastructure: Configured Static IP addressing and DNS for proper name resolution across the private subnet.
@@ -41,7 +40,7 @@ This stage focused on transforming the standalone server into the central manage
   <img src="assets/ActiveDirectory.png" width="700" alt="Active Directory Setup" />
 </p>
 
-### Stage 3: Routing & Internet Connectivity
+### Part 3: Routing & Internet Connectivity
 To ensure the isolated client machine could reach the web safely, the server was configured as a functional router.
 * NAT Configuration: Enabled Routing and Remote Access (RAS) on the server.
 * Internet Gateway: Configured Network Address Translation (NAT) so the Windows 10 client could access the internet through the Domain Controller’s external adapter.
@@ -54,7 +53,7 @@ To ensure the isolated client machine could reach the web safely, the server was
   <img src="assets/NetworkConnectivityTest.png" width="700" alt="Connectivity Test" />
 </p>
 
-### Stage 4: PowerShell Automation
+### Part 4: PowerShell Automation
 Instead of manual account creation, automation was used to simulate a large-scale employee onboarding process.
 * Scripting: Developed a PowerShell script to read from a list of names and automatically generate unique user accounts.
 * Efficiency: This process demonstrated how to provision hundreds of users instantly, ensuring consistent account settings and saving hours of manual entry.
