@@ -30,7 +30,7 @@ The foundation of the lab is a virtualized corporate network designed to be comp
 * Internal Subnet: Established a private virtual network to ensure secure communication between the server and client.
 
 <p align="center">
-  <img src="assets/VMConfig.png" width="700" alt="My Lab Setup" />
+  <img src="assets/VMConfig.png" width="800" alt="My Lab Setup" />
 </p>
 
 ### Part 2: Active Directory & Network Services
@@ -39,7 +39,7 @@ This stage focused on transforming the standalone server into the central manage
 * Network Infrastructure: Configured Static IP addressing and DNS for proper name resolution across the private subnet.
 * DHCP Management: Established a DHCP scope ($172.16.0.100 - 200$) to automate IP assignment for any client workstations joining the domain.
 <p align="center">
-  <img src="assets/ActiveDirectory.png" width="700" alt="Active Directory Setup" />
+  <img src="assets/ActiveDirectory.png" width="800" alt="Active Directory Setup" />
 </p>
 
 ### Part 3: Routing & Internet Connectivity
@@ -48,11 +48,11 @@ To ensure the isolated client machine could reach the web safely, the server was
 * Internet Gateway: Configured Network Address Translation (NAT) so the Windows 10 client could access the internet through the Domain Controller’s external adapter.
 * Connectivity Verification: Confirmed the client workstation could reach external sites while remaining on the internal subnet.
 <p align="center">
-  <img src="assets/InstallRAS_NAT.png" width="700" alt="NAT Configuration" />
+  <img src="assets/InstallRAS_NAT.png" width="800" alt="NAT Configuration" />
 </p>
 
 <p align="center">
-  <img src="assets/NetworkConnectivityTest.png" width="700" alt="Connectivity Test" />
+  <img src="assets/NetworkConnectivityTest.png" width="800" alt="Connectivity Test" />
 </p>
 
 ### Part 4: PowerShell Automation
@@ -65,7 +65,7 @@ Automation Scripts:
 * [📂 Name Generation Script](scripts/Generate-Names-Create-Users.ps1) – Used to generate mock user data for the simulation.
   
 <p align="center">
-  <img src="assets/PowerShell.png" width="700" alt="PowerShell Automation" />
+  <img src="assets/PowerShell.png" width="800" alt="PowerShell Automation" />
 </p>
 
 ---
