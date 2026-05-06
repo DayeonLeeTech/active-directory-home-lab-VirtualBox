@@ -3,7 +3,7 @@
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-214294?style=for-the-badge&logo=virtualbox&logoColor=white)
 # Active Directory Home Lab (Oracle VirtualBox)
 <p align="center">
-  <img src="assets/HomeLab.png" width="100%" alt="My Lab Setup" />
+  <img src="assets/active-directory.drawio (1).png" width="100%" alt="My Lab Setup" />
 </p>
 
 ## Introduction
