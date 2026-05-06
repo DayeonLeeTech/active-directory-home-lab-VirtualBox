@@ -70,17 +70,19 @@ Automation Scripts:
 
 ---
 
-### Project Outcome 
-**The Results**
+## Project Outcome & Key Takeaways
+The project successfully established a functional corporate network within a virtualized environment. By the end of the lab, the client workstation was fully integrated with the domain controller, receiving automated network configurations and maintaining stable connectivity.
 
-The project successfully established a functional office network within a virtual environment. The client computer integrated with the server, received an automatic IP address, and maintained stable internet connectivity. Automation was used to instantly provision over 100 user accounts, ensuring the system was organized and ready for a corporate environment.
+### Core Technical Competencies
+* **System Administration:** Hands-on experience managing a centralized Windows Server environment, including Active Directory Domain Services (AD DS) and user database management.
+* **Network Infrastructure:** Configuration of essential services including DHCP for automated IP addressing and NAT for internal-to-external communication.
+* **Workflow Automation:** Utilization of PowerShell scripting to provision 1,000+ user accounts instantly, demonstrating the ability to handle high-volume administrative tasks with precision.
+* **Technical Troubleshooting:** Systematic diagnosis of connectivity and DNS resolution issues to ensure seamless communication between the server and client nodes.
 
-**Key skills**
-* System Administration: Hands-on experience managing a central server and user database.
-* Networking: Configuring device connectivity and internal communication protocols.
-* Automation: Using scripts to complete high-volume, repetitive tasks with precision.
-* Troubleshooting: Diagnosing and resolving network and connectivity issues.
+---
 
+## Conclusion & Cleanup
+To maintain system hygiene and resource efficiency, the virtual environment was decommissioned upon completion. This project served as a comprehensive exercise in building, securing, and automating a standard enterprise network from the ground up.
 
 
 
