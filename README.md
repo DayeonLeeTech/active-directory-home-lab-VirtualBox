@@ -1,6 +1,9 @@
 ![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D4?style=for-the-badge&logo=windows-server&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-214294?style=for-the-badge&logo=virtualbox&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active%20Directory-0078D4?style=for-the-badge&logo=microsoft-active-directory&logoColor=white)
+![DHCP](https://img.shields.io/badge/DHCP-orange?style=for-the-badge&logo=server&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-blueviolet?style=for-the-badge&logo=robot&logoColor=white)
 # Active Directory Home Lab (Oracle VirtualBox)
 <p align="center">
   <img src="assets/active-directory.drawio (1).png" width="100%" alt="My Lab Setup" />
