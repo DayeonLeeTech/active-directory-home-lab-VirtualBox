@@ -74,13 +74,19 @@ Automation Scripts:
 ---
 
 ## Project Outcome & Key Takeaways
-The project successfully established a functional corporate network within a virtualized environment. By the end of the lab, the client workstation was fully integrated with the domain controller, receiving automated network configurations and maintaining stable connectivity.
+The project successfully established a functional corporate network within a virtualized environment. By the end of the lab, a Windows 10 client workstation was fully integrated into a managed domain, receiving automated network configurations and maintaining stable, routed internet connectivity through a centralized Windows Server 2019 Domain Controller.
 
 ### Core Technical Competencies
-* **System Administration:** Hands-on experience managing a centralized Windows Server environment, including Active Directory Domain Services (AD DS) and user database management.
-* **Network Infrastructure:** Configuration of essential services including DHCP for automated IP addressing and NAT for internal-to-external communication.
+* **System Administration:** Hands-on experience managing a centralized Windows Server environment, including Active Directory Domain Services (AD DS) and organizational unit (OU) management.
+* **Network Infrastructure:** Configuration of critical infrastructure services, including DHCP for dynamic IP assignment and DNS for internal name resolution.
+* **Network Routing & NAT:** Implementation of Routing and Remote Access (RAS) to provide internal-to-external internet communication for isolated client nodes.
 * **Workflow Automation:** Utilization of PowerShell scripting to provision 1,000+ user accounts instantly, demonstrating the ability to handle high-volume administrative tasks with precision.
-* **Technical Troubleshooting:** Systematic diagnosis of connectivity and DNS resolution issues to ensure seamless communication between the server and client nodes.
+
+### Key Takeaways
+* **Automation at Scale:** Demonstrated that PowerShell is an essential force multiplier in IT, transforming a task that would take days (manual user creation) into a process that takes seconds.
+* **Infrastructure Interconnectivity:** Gained a deep understanding of how AD, DNS, and DHCP must work in perfect synchronization for a client workstation to successfully join and authenticate with a domain.
+* **Virtualized Networking:** Mastered the complexity of dual-homed networking, successfully using a server as a gateway to provide internet access to a private, secure subnet.
+* **Standardized Configuration:** Recognized the importance of standardized user data and automated provisioning to prevent human error during large-scale employee onboarding.
 
 ---
 
